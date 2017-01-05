@@ -28,7 +28,7 @@ RUN apt-get -q update \
 
 # Install mattermost
 RUN cd /root/ \
- && wget https://releases.mattermost.com/3.1.0/mattermost-team-3.1.0-linux-amd64.tar.gz -O mattermost.tar.gz \
+ && wget https://releases.mattermost.com/3.5.1/mattermost-3.5.1-linux-amd64.tar.gz -O mattermost.tar.gz \
  && tar -xvzf mattermost.tar.gz \
  && rm -fr mattermost.tar.gz \
  && mkdir -p /mattermost/data
